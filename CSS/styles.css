@@ -1,29 +1,29 @@
 li {
   color:black;
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: right;
 }
 p {
   color:black;
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 2em;
   padding: 10px;
 }
 h1 {
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h3 {
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 a {
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
 }
 .frogs {
-  font-family: 'moon', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .f-nav {
     z-index: 9999;
@@ -70,6 +70,9 @@ a {
 @media screen and (max-width: 600px) {
     .nav {
         height: auto;
+    }
+    .nav ul li {
+      width:100%;
     }
     .nav ul {
         width: 100%;
