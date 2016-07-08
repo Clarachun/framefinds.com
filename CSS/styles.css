@@ -77,7 +77,7 @@ nav a#pull {
         height: auto;
     }
     nav li {
-        width: 50%;
+        width: 100%;
         float: left;
         position: relative;
     }
