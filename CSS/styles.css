@@ -63,6 +63,7 @@ nav a:hover, nav a:active {
 nav a#pull {
     display: none;
 }
+
 @media screen and (max-width: 600px) {
     nav {
         height: auto;
@@ -189,18 +190,15 @@ nav a#pull {
 }
 .demo {
   position: relative;
-  width: 100%; /* for IE 6 */
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 70px;
 }
 .demo img {
   width:70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding:50px;
+  padding: 50px;
 }
 .demo a {
   text-align: center;
@@ -213,6 +211,13 @@ nav a#pull {
   border: 1px solid grey;
   color: grey;
   text-decoration: none;
+}
+.map-demo {
+    background-image: url('http://cdn.abclocal.go.com/images/kabc/cms_exf_2007/news/local/los_angeles/9160996_1280x720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 70%;
 }
 .theatre {
   display: table;
