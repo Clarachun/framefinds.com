@@ -1,29 +1,29 @@
 li {
   color:black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   text-align: right;
 }
 p {
   color:black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   line-height: 2em;
   padding: 10px;
 }
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
 }
 .frogs {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .f-nav {
     z-index: 9999;
@@ -165,8 +165,7 @@ a {
     padding-top: 50px;
     background-color: grey;
 }
-.dog h3 {
-    width: 60%;
+.dog h2 {
     padding-top: 40px;
     text-align: center;
     color: white;
@@ -179,7 +178,6 @@ a {
   width: 60%;
 }
 .works {
-  background: #989898;
   width: 100%;
   padding: 20px;
 }
@@ -187,12 +185,13 @@ a {
   width: 60%;
   margin: auto;
   padding-top: 20px;
+  text-align: center;
 }
 .works p {
   margin: auto;
   padding-bottom:40px;
   padding-top: 20px;
-  width: 60%;
+  width: 73%;
 }
 .demo {
   position: relative;
