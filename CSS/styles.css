@@ -1,29 +1,29 @@
 li {
   color:black;
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
   text-align: right;
 }
 p {
   color:black;
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
   line-height: 2em;
   padding: 10px;
 }
 h1 {
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
 }
 h2 {
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
 }
 h3 {
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
 }
 a {
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
   text-decoration: none;
 }
 .frogs {
-  font-family: 'moon', cursive;
+  font-family: 'moon', sans-serif;
 }
 .f-nav {
     z-index: 9999;
