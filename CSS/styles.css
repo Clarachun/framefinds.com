@@ -30,6 +30,9 @@ a {
     position: fixed;
     width: 100%;
 } /* this make our menu move*/
+.navbar {
+  background: white;
+}
 .nav ul {
   list-style: none;
   width:100%;
