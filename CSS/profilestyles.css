@@ -1,0 +1,85 @@
+li {
+  color:black;
+  font-family: 'moon', cursive;
+  text-align: right;
+}
+p {
+  color:black;
+  font-family: 'moon', cursive;
+  line-height: 2em;
+  padding: 10px;
+}
+h1 {
+  font-family: 'moon', cursive;
+}
+h2 {
+  font-family: 'moon', cursive;
+}
+h3 {
+  font-family: 'moon', cursive;
+}
+.frogs {
+  font-family: 'moon', cursive;
+}
+.navbar {
+  text-align: right;
+}
+.f-nav {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+} /* this make our menu fixed top */
+
+.nav {
+  height: 50px;
+  text-align: right;
+  color: black;
+}
+.nav ul {
+  list-style: none;
+  text-align: right;
+}
+.nav ul li {
+  float: left;
+  margin-top: 6px;
+  padding: 6px;
+  text-align: right;
+}
+.nav ul li:first-child {
+  padding-left: 0;
+  text-align: right;
+}
+.nav ul li a {
+    margin-top:0px;
+    text-align:center;
+    color:black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.nav ul li a:hover {
+  text-decoration: underline;
+  text-align: right;
+}
+.nav .navbar-nav ul li a {
+  text-align:right;
+  float: right;
+}
+.profile {
+  width:60%;
+  margin: auto;
+}
+#profile-picture img {
+  padding-top: 100px;
+}
+#username h2 {
+  text-align: center;
+}
+#basic-profile-info p {
+  padding:20px;
+}

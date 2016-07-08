@@ -1,0 +1,146 @@
+li {
+  color:black;
+  font-family: 'moon', cursive;
+  text-align: right;
+}
+p {
+  color:black;
+  font-family: 'moon', cursive;
+  line-height: 2em;
+  padding: 10px;
+}
+h1 {
+  font-family: 'moon', cursive;
+}
+h2 {
+  font-family: 'moon', cursive;
+}
+h3 {
+  font-family: 'moon', cursive;
+}
+.frogs {
+  font-family: 'moon', cursive;
+}
+.navbar {
+  text-align: right;
+}
+.f-nav {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+} /* this make our menu fixed top */
+
+.nav {
+  height: 50px;
+  text-align: right;
+  color: black;
+}
+.nav ul {
+  list-style: none;
+  text-align: right;
+}
+.nav ul li {
+  float: left;
+  margin-top: 6px;
+  padding: 6px;
+  text-align: right;
+}
+.nav ul li:first-child {
+  padding-left: 0;
+  text-align: right;
+}
+.nav ul li a {
+    margin-top:0px;
+    text-align:center;
+    color:black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.nav ul li a:hover {
+  text-decoration: underline;
+  text-align: right;
+}
+.nav .navbar-nav ul li a {
+  text-align:right;
+  float: right;
+}
+.about {
+  margin: auto;
+  padding-bottom:100px;
+  padding-top: 50px;
+}
+.about .title h1 {
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  font-size: 50px;
+}
+.about-us {
+  width: 100%;
+  margin: auto;
+  background: white;
+  margin: auto;
+  padding-bottom:100px;
+  padding-top: 50px;
+}
+.about-us h2 {
+  text-align: center;
+}
+.about-us p {
+  width: 60%;
+  margin: auto;
+}
+.photo img {
+  width: 100%;
+}
+.mission {
+  width: 100%;
+  margin: auto;
+  background: #666;
+  margin: auto;
+  padding-bottom:20px;
+  padding-top: 20px;
+}
+.mission h2 {
+  text-align: center;
+}
+.mission p {
+  width: 60%;
+  margin: auto;
+}
+.nemo h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+}
+.nemo p {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+.story {
+  width: 100%;
+  margin: auto;
+  background: #666;
+  margin: auto;
+  padding-bottom:20px;
+  padding-top: 20px;
+}
+.story h2 {
+  text-align: center;
+}
+.story p {
+  width: 60%;
+  margin: auto;
+}
