@@ -90,6 +90,30 @@ nav a#pull {
         width: 100%;
         text-indent: 25px;
     }
+    li {
+      color:black;
+      font-family: 'moon', sans-serif;
+      text-align: right;
+    }
+    p {
+      color:black;
+      font-family: 'moon', sans-serif;
+      line-height: 2em;
+      padding: 10px;
+    }
+    h1 {
+      font-family: 'moon', sans-serif;
+    }
+    h2 {
+      font-family: 'moon', sans-serif;
+    }
+    h3 {
+      font-family: 'moon', sans-serif;
+    }
+    a {
+      font-family: 'moon', sans-serif;
+      text-decoration: none;
+    }
 }
 @media only screen and (max-width : 480px) {
     nav {
@@ -115,6 +139,30 @@ nav a#pull {
         right: 15px;
         top: 10px;
     }
+    li {
+      color:black;
+      font-family: 'moon', sans-serif;
+      text-align: right;
+    }
+    p {
+      color:black;
+      font-family: 'moon', sans-serif;
+      line-height: 2em;
+      padding: 10px;
+    }
+    h1 {
+      font-family: 'moon', sans-serif;
+    }
+    h2 {
+      font-family: 'moon', sans-serif;
+    }
+    h3 {
+      font-family: 'moon', sans-serif;
+    }
+    a {
+      font-family: 'moon', sans-serif;
+      text-decoration: none;
+    }
   }
   @media only screen and (max-width : 320px) {
     nav li {
@@ -124,6 +172,30 @@ nav a#pull {
     }
     nav li a {
         border-bottom: 1px solid #576979;
+    }
+    li {
+      color:black;
+      font-family: 'moon', sans-serif;
+      text-align: right;
+    }
+    p {
+      color:black;
+      font-family: 'moon', sans-serif;
+      line-height: 2em;
+      padding: 10px;
+    }
+    h1 {
+      font-family: 'moon', sans-serif;
+    }
+    h2 {
+      font-family: 'moon', sans-serif;
+    }
+    h3 {
+      font-family: 'moon', sans-serif;
+    }
+    a {
+      font-family: 'moon', sans-serif;
+      text-decoration: none;
     }
 }
 .naan img {
