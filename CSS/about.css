@@ -259,21 +259,49 @@ a {
       width: 100%;
     }
 }
-
-.naan img {
-  width: 100%;
+.about {
+  margin: auto;
+  padding-bottom:100px;
+  padding-top: 50px;
 }
-.cats {
-    margin: auto;
-    width: 90%;
-    padding:75px;
-    text-align: center;
-}
-.cats p {
+.about .title h1 {
   text-align: center;
+  margin: auto;
+  padding: 50px;
+  font-size: 50px;
+}
+.about-us {
+  width: 100%;
+  margin: auto;
+  background: white;
+  margin: auto;
+  padding-bottom:100px;
+  padding-top: 50px;
+}
+.about-us h2 {
+  text-align: center;
+}
+.about-us p {
+  width: 60%;
+  margin: auto;
 }
 .photo img {
   width: 100%;
+}
+.mission {
+  width: 100%;
+  margin: auto;
+  background: #666;
+  margin: auto;
+  padding-bottom:20px;
+  padding-top: 20px;
+}
+.mission h2 {
+  text-align: center;
+}
+.mission p {
+  width: 60%;
+  margin: auto;
 }
 .nemo h2 {
   text-align: center;
@@ -290,106 +318,18 @@ a {
     font-size: 40px;
     color: red;
 }
-.dog {
-    margin: auto;
-    padding-bottom:100px;
-    padding-top: 50px;
-    background-color: grey;
-}
-.dog h3 {
-    width: 60%;
-    padding-top: 40px;
-    text-align: center;
-    color: white;
-}
-.dog p {
-  color: white;
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 60%;
-}
-.works {
-  background: #989898;
+.story {
   width: 100%;
-  padding: 20px;
-}
-.works h2 {
-  width: 60%;
   margin: auto;
+  background: #666;
+  margin: auto;
+  padding-bottom:20px;
   padding-top: 20px;
 }
-.works p {
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
+.story h2 {
+  text-align: center;
+}
+.story p {
   width: 60%;
-}
-.demo {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-.demo img {
-  width:70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-}
-.demo a {
-  text-align: center;
-  border: 1px solid black;
-  padding: 3px;
-  font-size: 30px;
-  color: black;
-}
-.demo a:hover {
-  border: 1px solid grey;
-  color: grey;
-  text-decoration: none;
-}
-.map-demo {
-    background-image: url('http://cdn.abclocal.go.com/images/kabc/cms_exf_2007/news/local/los_angeles/9160996_1280x720.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 70%;
-}
-.theatre {
-  display: table;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-.theatre .stage {
-  display: table-cell;
-  vertical-align: middle;
-}
-.email {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: pink;
-}
-.email img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.email h2 {
-  text-align: center;
-  padding: 20px;
-}
-.contact {
-  padding: 40px;
-}
-.contact h2 {
-  text-align: center;
-}
-.contact img {
-  width: 30%;
-  padding: 20px;
+  margin: auto;
 }
