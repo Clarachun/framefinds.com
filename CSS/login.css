@@ -66,11 +66,7 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-wdith: 768px) {
-  .cats {
-    padding: 75px;
-  }
-}
+
 @media screen and (max-width: 600px) {
     .nav {
       height: auto;
@@ -100,6 +96,7 @@ a {
     .cats {
         margin: auto;
         width: 100%;
+        padding:75px;
         text-align: center;
     }
     .cats p {
@@ -167,6 +164,7 @@ a {
     .cats {
         margin: auto;
         width: 100%;
+        padding:75px;
         text-align: center;
     }
     .cats p {
@@ -260,132 +258,115 @@ a {
       width: 100%;
     }
 }
-.naan img {
-  width: 100%;
-}
-.cats {
-    margin: auto;
-    width: 90%;
-    text-align: center;
-}
-.cats p {
-  text-align: center;
-}
-.photo img {
-  width: 100%;
-}
-.nemo h2 {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 60px;
-}
-.nemo p {
-    height: 200px;
-    width: 200px;
-    padding-bottom: 20px;
-    padding-top: 40px;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    color: red;
-}
-.dog {
-    margin: auto;
-    padding-bottom:100px;
-    padding-top: 50px;
-    background-color: grey;
-}
-.dog h2 {
-    padding-top: 40px;
-    text-align: center;
-    color: white;
-}
-.dog p {
-  color: white;
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 60%;
-}
-.works {
-  width: 100%;
-  padding: 20px;
-}
-.works h2 {
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  text-align: center;
-}
-.works p {
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 73%;
-}
-.demo {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-}
-.demo a {
-  text-align: center;
-  border: 1px solid black;
-  padding: 3px;
-  font-size: 30px;
-  color: black;
-}
-.demo a:hover {
-  border: 1px solid grey;
-  color: grey;
-  text-decoration: none;
-}
-.map-demo {
-    background-image: url('https://github.com/Clarachun/framefinds.com/blob/gh-pages/9160996_1280x720.jpg?raw=true');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 70%;
-    padding: 20px;
-}
-.theatre {
-  display: table;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  padding: 20px;
-}
 
-.theatre .stage {
+.body{
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+}
+.login-1 {
   display: table-cell;
   vertical-align: middle;
-  padding: 20px;
-}
-.email {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: #A9A9A9;
-}
-.email img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.email h2 {
   text-align: center;
-  padding: 20px;
+  background: rgba(255,255,255,0.2);
 }
-.contact {
-  padding: 40px;
+.login {
+	position: relative;
+  display: table;
+	height: 100vh;
+  width: 100%;
+	z-index: 2;
 }
-.contact h2 {
-  text-align: center;
+.password {
+  padding: 5px;
 }
-.contact img {
-  width: 30%;
-  padding: 20px;
+.username {
+  padding: 5px;
+}
+.login-register {
+  padding: 5px;
+}
+.login-register p {
+  font-size: 20px;
+}
+.login-register a {
+  text-decoration: none;
+  color: blue;
+}
+.login-register a:hover {
+  text-decoration: none;
+  color: black;
+}
+.login input[type=text]{
+	width: 300px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px;
+}
+
+.login input[type=password]{
+  width: 300px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px;
+}
+
+.login input[type=button]{
+	width: 300px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
 }
