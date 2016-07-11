@@ -67,7 +67,7 @@ a {
 }
 @media screen and (min-wdith: 768px) {
   .cats {
-    padding: 75px;
+    padding: 100px;
     margin: auto;
     width: 90%;
     text-align: center;
