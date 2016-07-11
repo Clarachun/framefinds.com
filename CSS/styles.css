@@ -65,7 +65,7 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-wdith: 768px) {
+@media screen and (min-width: 768px) {
   .cats {
     padding: 75px;
   }
