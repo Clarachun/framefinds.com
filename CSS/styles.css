@@ -67,16 +67,7 @@ a {
 }
 @media screen and (min-wdith: 768px) {
   .cats {
-    padding: 100px;
-    margin: auto;
-    width: 90%;
-    text-align: center;
-  }
-  .cats p {
-    text-align: center;
-  }
-  .dog {
-
+    padding: 75px;
   }
 }
 @media screen and (max-width: 600px) {
