@@ -69,7 +69,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .nav {
-        height: auto;
+      height: auto;
     }
     .nav ul li {
       width:100%;
@@ -118,6 +118,49 @@ a {
         right: 15px;
         top: 10px;
     }
+    .cats {
+        margin: auto;
+        width: 100%;
+        padding:75px;
+        text-align: center;
+    }
+    .cats p {
+      text-align: center;
+    }
+    .dog {
+        margin: auto;
+        padding-bottom:100px;
+        padding-top: 50px;
+        background-color: grey;
+    }
+    .dog h2 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .dog p {
+      color: white;
+      margin: auto;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
+    }
+    .works {
+      width: 100%;
+      padding: 20px;
+    }
+    .works h2 {
+      width: 100%;
+      margin: auto;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .works p {
+      margin: auto;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
+    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -127,6 +170,49 @@ a {
     }
     .nav li a {
         border-bottom: 1px solid #576979;
+    }
+    .cats {
+        margin: auto;
+        width: 100%;
+        padding:75px;
+        text-align: center;
+    }
+    .cats p {
+      text-align: center;
+    }
+    .dog {
+        margin: auto;
+        padding-bottom:100px;
+        padding-top: 50px;
+        background-color: grey;
+    }
+    .dog h2 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .dog p {
+      color: white;
+      margin: auto;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
+    }
+    .works {
+      width: 100%;
+      padding: 20px;
+    }
+    .works h2 {
+      width: 100%;
+      margin: auto;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .works p {
+      margin: auto;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
     }
 }
 .naan img {
