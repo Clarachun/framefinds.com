@@ -60,14 +60,8 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-wdith: 768px) {
   .cats {
-    padding: 75px;
-  }
-  .dog {
-    padding: 75px;
-  }
-  .works {
     padding: 75px;
   }
 }
@@ -97,12 +91,35 @@ a {
         width: 100%;
         text-indent: 25px;
     }
+    .cats {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .cats p {
+      text-align: center;
+    }
+    .dog {
+        margin: auto;
+        padding-bottom:100px;
+        padding-top: 50px;
+        background-color: grey;
+    }
+    .dog h2 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
     .dog p {
+      color: white;
       margin: auto;
-      width: 60%;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
     }
     .works {
       width: 100%;
+      padding: 20px;
     }
     .works h2 {
       width: 100%;
@@ -141,9 +158,31 @@ a {
         right: 15px;
         top: 10px;
     }
+    .cats {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .cats p {
+      text-align: center;
+    }
+    .dog {
+        margin: auto;
+        padding-bottom:100px;
+        padding-top: 50px;
+        background-color: grey;
+    }
+    .dog h2 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
     .dog p {
+      color: white;
       margin: auto;
-      width: 60%;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
     }
     .works {
       width: 100%;
@@ -171,9 +210,32 @@ a {
     .nav li a {
         border-bottom: 1px solid #576979;
     }
+    .cats {
+        margin: auto;
+        width: 100%;
+    }
+    .cats p {
+      width: 100%;
+    }
+    .dog {
+        margin: auto;
+        padding-bottom:100px;
+        padding-top: 50px;
+        background-color: grey;
+        width: 100%;
+    }
+    .dog h2 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
     .dog p {
+      color: white;
       margin: auto;
-      width: 60%;
+      padding-bottom:40px;
+      padding-top: 20px;
+      width: 100%;
     }
     .works {
       width: 100%;
@@ -192,189 +254,119 @@ a {
       width: 100%;
     }
 }
-.naan img {
-  width: 100%;
-}
-.cats {
-  margin: auto;
-  text-align: center;
-}
-.photo img {
-  width: 100%;
-}
-.nemo h2 {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 60px;
-}
-.nemo p {
-    height: 200px;
-    width: 200px;
-    padding-bottom: 20px;
-    padding-top: 40px;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    color: red;
-}
-.dog {
-    margin: auto;
-    background-color: grey;
-    text-align: center;
-}
-.works {
-  width: 100%;
-}
-.works h2 {
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  text-align: center;
-}
-.works p {
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 73%;
-}
-.demo {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-}
-.demo a {
-  text-align: center;
-  border: 1px solid black;
-  padding: 3px;
-  font-size: 30px;
-  color: black;
-}
-.demo a:hover {
-  border: 1px solid grey;
-  color: grey;
-  text-decoration: none;
-}
-.map-demo {
-  background-image: url('https://github.com/Clarachun/framefinds.com/blob/gh-pages/9160996_1280x720.jpg?raw=true');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 70%;
-  padding: 20px;
-}
-.theatre {
-  display: table;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  padding: 20px;
-}
 
-.theatre .stage {
+.body{
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+}
+.login-1 {
   display: table-cell;
   vertical-align: middle;
-  padding: 20px;
-}
-.email {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: #A9A9A9;
-}
-.email img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.email h2 {
   text-align: center;
-  padding: 20px;
+  background: rgba(255,255,255,0.2);
 }
-.contact {
-  padding: 40px;
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-.contact h2 {
-  text-align: center;
-}
-.contact img {
-  width: 130px;
-  height: 130px;
-  padding: 30px;
-  text-align: center;
-  margin: auto;
-  position: relative;
-}
-.copyright {
+.login {
+	position: relative;
+  display: table;
+	height: 100vh;
   width: 100%;
-  background: white;
+	z-index: 2;
+}
+.password {
+  padding: 5px;
+}
+.username {
+  padding: 5px;
+}
+.login-register {
+  padding: 5px;
+}
+.login-register p {
+  font-size: 20px;
+}
+.login-register a {
+  text-decoration: none;
+  color: blue;
+}
+.login-register a:hover {
+  text-decoration: none;
   color: black;
-  text-align: right;
 }
-#mymodal {
-  padding: 20px;
-}
-.contact-us {
-  padding: 40px;
-}
-.contact-us h1{
-  padding: 10px;
-}
-h4 {
-  font-family: 'Julius Sans One', sans-serif;
-}
-.buttons {
-    background-color: black; /* Green */
-    border: none;
-    color: white;
-    padding: 20px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-.buttons:hover {
-    background-color: white; /* Green */
-    border: 1px solid black;
-    color: black;
-}
-.buttons::selection {
-    background-color: white; /* Green */
-    border: 1px solid black;
-    color: black;
-}
-.login-1 
-.login-1 input[type=text]{
+
+.login input[type=text]{
 	width: 300px;
 	height: 50px;
 	background: transparent;
-	border: 1px solid black;
+	border: 1px solid rgba(255,255,255,1);
 	border-radius: 2px;
-	color: black;
+	color: #fff;
 	font-family: 'Exo', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	padding: 10px;
   font-family: 'Julius Sans One', sans-serif;
-  padding: 10px;
 }
 
-.login-1 input[type=password]{
+.login input[type=password]{
   width: 300px;
 	height: 50px;
 	background: transparent;
-	border: 1px solid black;
+	border: 1px solid rgba(255,255,255,1);
 	border-radius: 2px;
-	color: black;
+	color: #fff;
 	font-family: 'Exo', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	padding: 10px;
   font-family: 'Julius Sans One', sans-serif;
-  padding: 10px;
+}
+
+.login input[type=button]{
+	width: 300px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
 }
