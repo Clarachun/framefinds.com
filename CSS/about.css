@@ -226,9 +226,29 @@ a {
   width: 60%;
   margin: auto;
 }
+.team-one {
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+.team-one img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team-two {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 75px;
+  margin: auto;
+  text-align: center;
+}
+.team-two img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .copyright {
   width: 100%;
-  background: white;
-  color: black;
   text-align: right;
 }
