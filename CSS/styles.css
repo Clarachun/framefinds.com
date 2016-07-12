@@ -54,8 +54,11 @@ a {
 .nav li:last-child a {
     border-right: 0;
 }
-.nav a:hover, nav a:active {
+li:hover, li:active {
     background-color: #8c99a4;
+}
+li:hover.loginbutton {
+  background: white;
 }
 .nav a#pull {
     display: none;
@@ -279,7 +282,7 @@ a {
   text-align: center;
   width: 50%;
 }
-.contact h2 {
+.head h1 {
   text-align: center;
 }
 .contact img {
@@ -290,6 +293,9 @@ a {
   margin: auto;
   position: relative;
 }
+.class h1 {
+  text-align: center;
+}
 .copyright {
   width: 100%;
   background: white;
@@ -299,12 +305,30 @@ a {
 #mymodal {
   padding: 20px;
 }
-.contact-us {
-  padding: 40px;
-}
-.contact-us h1{
-  padding: 10px;
-}
 h4 {
   font-family: 'Julius Sans One', sans-serif;
+}
+.glass {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+}
+
+.glass img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
 }

@@ -35,10 +35,10 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="framefinds.com/popular">popular</a></li>
-                <li><a href="framefinds.com/">Tags</a></li>
+                <li><a href="framefinds.com/Demo">Demo</a></li>
+                <li class="active"><a href="map.html">Map</a></li>
                 <li><div class="loginbutton"><a href="login.html"><button type="button" class="btn btn-default navbar-btn">Log In</button></a></div></li>
               </ul>
             </div>
@@ -51,16 +51,14 @@
         function initMap() {
           var mapDiv = document.getElementById('map');
           var map = new google.maps.Map(mapDiv, {
-              center: {lat: 44.540, lng: -78.546},
+              center: {lat: 34.0195, lng: -118.4912},
               zoom: 8
           });
         }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMQuLM_OcCGBx6qHW5zRN-rkSy-Kn78N4Y&callback=initMap"></script>
-        <div class="copyright">
-          <p> 2016 copyright © framefinds.com</p>
-        </div>
-      </div>
+      </script>
+      <script async defer
+             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMQuLM_OcCGBx6qHW5zRN-rkSy-Kn78N4&callback=initMap">
+      </script>
       <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
