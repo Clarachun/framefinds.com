@@ -69,6 +69,12 @@ a {
   .cats {
     padding: 75px;
   }
+  .dog {
+    padding: 75px;
+  }
+  .works {
+    padding: 75px;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -96,35 +102,12 @@ a {
         width: 100%;
         text-indent: 25px;
     }
-    .cats {
-        margin: auto;
-        width: 100%;
-        text-align: center;
-    }
-    .cats p {
-      text-align: center;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-    }
     .dog p {
-      color: white;
       margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
+      width: 60%;
     }
     .works {
       width: 100%;
-      padding: 20px;
     }
     .works h2 {
       width: 100%;
@@ -163,31 +146,9 @@ a {
         right: 15px;
         top: 10px;
     }
-    .cats {
-        margin: auto;
-        width: 100%;
-        text-align: center;
-    }
-    .cats p {
-      text-align: center;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-    }
     .dog p {
-      color: white;
       margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
+      width: 60%;
     }
     .works {
       width: 100%;
@@ -215,32 +176,9 @@ a {
     .nav li a {
         border-bottom: 1px solid #576979;
     }
-    .cats {
-        margin: auto;
-        width: 100%;
-    }
-    .cats p {
-      width: 100%;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-        width: 100%;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-        width: 100%;
-    }
     .dog p {
-      color: white;
       margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
+      width: 60%;
     }
     .works {
       width: 100%;
@@ -263,11 +201,7 @@ a {
   width: 100%;
 }
 .cats {
-    margin: auto;
-    width: 90%;
-    text-align: center;
-}
-.cats p {
+  margin: auto;
   text-align: center;
 }
 .photo img {
@@ -290,25 +224,11 @@ a {
 }
 .dog {
     margin: auto;
-    padding-bottom:100px;
-    padding-top: 50px;
     background-color: grey;
-}
-.dog h2 {
-    padding-top: 40px;
     text-align: center;
-    color: white;
-}
-.dog p {
-  color: white;
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 60%;
 }
 .works {
   width: 100%;
-  padding: 20px;
 }
 .works h2 {
   width: 60%;

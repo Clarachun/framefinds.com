@@ -66,7 +66,7 @@ a {
     display: none;
 }
 @media screen and (min-wdith: 768px) {
-  .cats {
+  .about {
     padding: 75px;
   }
 }
@@ -96,46 +96,11 @@ a {
         width: 100%;
         text-indent: 25px;
     }
-    .cats {
+    .about  {
         margin: auto;
         width: 100%;
-        text-align: center;
     }
-    .cats p {
-      text-align: center;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-    }
-    .dog p {
-      color: white;
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
-    }
-    .works {
-      width: 100%;
-      padding: 20px;
-    }
-    .works h2 {
-      width: 100%;
-      margin: auto;
-      padding-top: 20px;
-      text-align: center;
-    }
-    .works p {
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
+    .about p {
       width: 100%;
     }
 }
@@ -163,46 +128,11 @@ a {
         right: 15px;
         top: 10px;
     }
-    .cats {
+    .about  {
         margin: auto;
         width: 100%;
-        text-align: center;
     }
-    .cats p {
-      text-align: center;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-    }
-    .dog p {
-      color: white;
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
-    }
-    .works {
-      width: 100%;
-      padding: 20px;
-    }
-    .works h2 {
-      width: 100%;
-      margin: auto;
-      padding-top: 20px;
-      text-align: center;
-    }
-    .works p {
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
+    .about p {
       width: 100%;
     }
   }
@@ -215,47 +145,11 @@ a {
     .nav li a {
         border-bottom: 1px solid #576979;
     }
-    .cats {
+    .about  {
         margin: auto;
         width: 100%;
     }
-    .cats p {
-      width: 100%;
-    }
-    .dog {
-        margin: auto;
-        padding-bottom:100px;
-        padding-top: 50px;
-        background-color: grey;
-        width: 100%;
-    }
-    .dog h2 {
-        padding-top: 40px;
-        text-align: center;
-        color: white;
-        width: 100%;
-    }
-    .dog p {
-      color: white;
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
-      width: 100%;
-    }
-    .works {
-      width: 100%;
-      padding: 20px;
-    }
-    .works h2 {
-      width: 100%;
-      margin: auto;
-      padding-top: 20px;
-      text-align: center;
-    }
-    .works p {
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
+    .about p {
       width: 100%;
     }
 }
@@ -323,8 +217,7 @@ a {
   margin: auto;
   background: #666;
   margin: auto;
-  padding-bottom:20px;
-  padding-top: 20px;
+  padding: 20px;
 }
 .story h2 {
   text-align: center;
