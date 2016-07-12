@@ -64,6 +64,13 @@ a {
   .about {
     padding: 75px;
   }
+  .dog {
+    padding: 75px;
+  }
+  .dog p {
+    margin: auto;
+    width: 60%;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -98,6 +105,10 @@ a {
     .about p {
       width: 100%;
     }
+    .dog p {
+      margin: auto;
+      width: 60%;
+    }
 }
 @media only screen and (max-width : 480px) {
     .nav {
@@ -130,6 +141,10 @@ a {
     .about p {
       width: 100%;
     }
+    .dog p {
+      margin: auto;
+      width: 60%;
+    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -146,6 +161,10 @@ a {
     }
     .about p {
       width: 100%;
+    }
+    .dog p {
+      margin: auto;
+      width: 60%;
     }
 }
 .about {
@@ -246,4 +265,10 @@ a {
 .copyright {
   width: 100%;
   text-align: right;
+}
+.dog {
+  margin: auto;
+  text-align: right;
+  padding-top: 30px;
+  width: 60%;
 }
