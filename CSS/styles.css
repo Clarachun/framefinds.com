@@ -71,12 +71,27 @@ li:hover.loginbutton {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .cats {
     padding: 75px;
   }
   .works {
     padding: 75px;
+  }
+  .contact-us p input {
+    width: 30%;
+  }
+  .contact-us textarea {
+    width: 30%;
+  }
+  .works p {
+    padding-bottom:20px;
+    padding-top: 20px;
+    width: 60%;
+  }
+  .works h2 {
+    width: 60%;
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -112,13 +127,17 @@ li:hover.loginbutton {
       width: 100%;
       margin: auto;
       padding-top: 20px;
-      text-align: center;
     }
     .works p {
-      margin: auto;
       padding-bottom:40px;
       padding-top: 20px;
       width: 100%;
+    }
+    .contact-us p input {
+      width: 90%;
+    }
+    .contact-us textarea {
+      width: 90%;
     }
 }
 @media only screen and (max-width : 480px) {
@@ -151,14 +170,18 @@ li:hover.loginbutton {
     }
     .works h2 {
       width: 100%;
-      margin: auto;
       padding-top: 20px;
       text-align: center;
     }
     .works p {
-      margin: auto;
       padding-bottom:40px;
       padding-top: 20px;
+      width: 100%;
+    }
+    .contact-us p input {
+      width: 100%;
+    }
+    .contact-us textarea {
       width: 100%;
     }
   }
@@ -185,6 +208,12 @@ li:hover.loginbutton {
       margin: auto;
       padding-bottom:40px;
       padding-top: 20px;
+      width: 100%;
+    }
+    .contact-us p input {
+      width: 100%;
+    }
+    .contact-us textarea {
       width: 100%;
     }
 }
@@ -215,18 +244,6 @@ li:hover.loginbutton {
 }
 .works {
   width: 100%;
-}
-.works h2 {
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  text-align: center;
-}
-.works p {
-  margin: auto;
-  padding-bottom:40px;
-  padding-top: 20px;
-  width: 73%;
 }
 .demo {
   position: relative;
@@ -337,6 +354,15 @@ h4 {
 }
 .head p {
   text-align: right;
+}
+.works p {
+  margin: auto;
+  padding-top: 20px;
+}
+.works h2 {
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
 }
 
 /* When the input field gets focus, change its width to 100% */
