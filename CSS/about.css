@@ -1,11 +1,20 @@
+body , html {
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  height: 100%;
+  margin: 0;
+  color:black;
+}
+.loginbutton:hover {
+  background: white;
+  color: white;
+}
 li {
   color:black;
-  font-family: 'Julius Sans One', sans-serif;
   text-align: right;
 }
 p {
   color:black;
-  font-family: 'Julius Sans One', sans-serif;
   line-height: 2em;
   padding: 10px;
 }
@@ -17,10 +26,16 @@ h2 {
 }
 h3 {
   font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 5px;
+  padding: 30px;
+  margin: auto;
 }
 a {
   font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
+}
+.frogs {
+  font-family: 'Julius Sans One', sans-serif;
 }
 .frogs {
   font-family: 'Julius Sans One', sans-serif;
@@ -54,22 +69,48 @@ a {
 .nav li:last-child a {
     border-right: 0;
 }
-.nav a:hover, nav a:active {
+.nav li a:hover, .nav li a:active {
     background-color: #8c99a4;
+    text-decoration: none;
 }
 .nav a#pull {
     display: none;
 }
 @media screen and (min-wdith: 768px) {
-  .about {
-    padding: 75px;
+  .cats {
+    padding: 100px;
+    width: 30%;
+    text-align: center;
   }
-  .dog {
-    padding: 75px;
-  }
-  .dog p {
+  .works {
+    width: 50%;
     margin: auto;
+  }
+  .works p {
     width: 60%;
+    text-align: right;
+  }
+  .caption span.border a {
+    padding: 20px;
+  }
+  h3 {
+    width: 60%;
+  }
+  .caption span.border {
+    padding: 20px;
+    letter-spacing: 10px;
+  }
+  .contact input {
+    width: 40%;
+  }
+  .contact textarea {
+    width: 60%;
+  }
+  .works h2 {
+    text-align: center;
+  }
+  .contact input {
+    width: 30%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -98,16 +139,32 @@ a {
         width: 100%;
         text-indent: 25px;
     }
-    .about  {
+    .cats {
         margin: auto;
         width: 100%;
+        text-align: center;
     }
-    .about p {
+    .cats p {
+      text-align: center;
+    }
+    .works {
+      text-align: center;
+      width: 90%;
+      margin: auto;
+    }
+    .works p {
+      width: 60%;
+      margin: auto;
+    }
+    h3 {
       width: 100%;
     }
-    .dog p {
-      margin: auto;
-      width: 60%;
+    .caption span.border {
+      padding: 10px;
+      letter-spacing: 8px;
+    }
+    .contact input {
+      width: 50%;
     }
 }
 @media only screen and (max-width : 480px) {
@@ -134,16 +191,33 @@ a {
         right: 15px;
         top: 10px;
     }
-    .about  {
+    .cats {
         margin: auto;
         width: 100%;
+        text-align: center;
     }
-    .about p {
+    .cats p {
+      text-align: center;
+    }
+    .works {
+      padding:5px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    .works p {
+      width: 100%;
+      margin: auto;
+    }
+    h3 {
       width: 100%;
     }
-    .dog p {
-      margin: auto;
-      width: 60%;
+    .caption span.border {
+      padding: 10px;
+      letter-spacing: 6px;
+    }
+    .contact input {
+      width: 50%;
     }
   }
   @media only screen and (max-width : 320px) {
@@ -155,28 +229,80 @@ a {
     .nav li a {
         border-bottom: 1px solid #576979;
     }
-    .about  {
-        margin: auto;
-        width: 100%;
-    }
-    .about p {
+    .cats {
+      margin: auto;
       width: 100%;
     }
-    .dog p {
+    .cats p {
+      width: 100%;
+      text-align: left;
+    }
+    h3 {
+      font-family: 'Julius Sans One', sans-serif;
+      letter-spacing: 5px;
+      color: #111;
+      width: 100%;
+      text-align: left;
+    }
+    .works {
+      text-align: center;
+      width: 100%;
       margin: auto;
-      width: 60%;
+    }
+    h3 {
+      width: 100%;
+    }
+    .caption span.border {
+      padding: 10px;
+      letter-spacing: 4px;
+    }
+    .contact input {
+      width: 50%;
     }
 }
-.about {
-  margin: auto;
-  padding-bottom:100px;
-  padding-top: 50px;
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.about .title h1 {
+.bgimg-1 {
+  background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
+  min-height: 200px;
+}
+
+.bgimg-2 {
+  background-image: url("https://www.choicehotels.com/cms/images/choice-hotels/citys/413541-Los-Angeles/413541-Los-Angeles.jpg");
+  min-height: 400px;
+}
+.bgimg-3 {
+  background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3032098-poster-p2-shutterstock186048416.jpg");
+  min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
+  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
   text-align: center;
-  margin: auto;
-  padding: 50px;
-  font-size: 50px;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  font-size: 35px;
 }
 .about-us {
   width: 100%;
@@ -186,15 +312,12 @@ a {
   padding-bottom:100px;
   padding-top: 50px;
 }
-.about-us h2 {
+.title h1 {
   text-align: center;
 }
 .about-us p {
   width: 60%;
   margin: auto;
-}
-.photo img {
-  width: 100%;
 }
 .mission {
   width: 100%;
@@ -210,6 +333,12 @@ a {
 .mission p {
   width: 60%;
   margin: auto;
+}
+.dog {
+  margin: auto;
+  text-align: right;
+  padding-top: 30px;
+  width: 60%;
 }
 .nemo h2 {
   text-align: center;
@@ -262,13 +391,17 @@ a {
   height: 200px;
   border-radius: 50%;
 }
-.copyright {
-  width: 100%;
-  text-align: right;
-}
-.dog {
+.glass {
   margin: auto;
-  text-align: right;
-  padding-top: 30px;
-  width: 60%;
+  text-align: center;
+  width: 40%;
+}
+
+.glass img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  position: relative;
 }
