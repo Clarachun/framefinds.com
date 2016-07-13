@@ -260,7 +260,7 @@ a {
       width: 50%;
     }
 }
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -271,7 +271,7 @@ a {
 }
 .bgimg-1 {
   background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
-  min-height: 100%;
+  min-height: 200px;
 }
 
 .bgimg-2 {
@@ -283,6 +283,10 @@ a {
   min-height: 400px;
 }
 .bgimg-4 {
+  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
   background-image: url("https://media.timeout.com/images/102692209/image.jpg");
   min-height: 100%;
 }
@@ -300,21 +304,92 @@ a {
   color: #fff;
   font-size: 35px;
 }
-.contact {
-  padding: 40px;
-  text-align: center;
+.about-us {
   width: 100%;
+  margin: auto;
+  background: white;
+  margin: auto;
+  padding-bottom:100px;
+  padding-top: 50px;
 }
-.contact p input {
-  width: 30%;
+.title h1 {
+  text-align: center;
 }
-.contact textarea {
-  width: 30%;
+.about-us p {
+  width: 60%;
+  margin: auto;
 }
-.input[type=text] {
-    width: 50%;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+.mission {
+  width: 100%;
+  margin: auto;
+  background: #666;
+  margin: auto;
+  padding-bottom:20px;
+  padding-top: 20px;
+}
+.mission h2 {
+  text-align: center;
+}
+.mission p {
+  width: 60%;
+  margin: auto;
+}
+.dog {
+  margin: auto;
+  text-align: right;
+  padding-top: 30px;
+  width: 60%;
+}
+.nemo h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+}
+.nemo p {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+.story {
+  width: 100%;
+  margin: auto;
+  background: #666;
+  margin: auto;
+  padding: 20px;
+}
+.story h2 {
+  text-align: center;
+}
+.story p {
+  width: 60%;
+  margin: auto;
+}
+.team-one {
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+.team-one img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team-two {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 75px;
+  margin: auto;
+  text-align: center;
+}
+.team-two img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 .glass {
   margin: auto;
@@ -329,21 +404,4 @@ a {
   text-align: center;
   margin: auto;
   position: relative;
-}
-.about {
-  color:white;
-  background-color:#282E34;
-}
-.email img {
-  width: 100px;
-  height: 100px;
-}
-.catty a:hover {
-  text-decoration: none;
-}
-.catty {
-  padding: 20px;
-}
-.works {
-  text-align: center;
 }
