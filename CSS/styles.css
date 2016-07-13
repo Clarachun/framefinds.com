@@ -267,11 +267,10 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
-  min-height: 100%;
+  min-height: 99%;
 }
 
 .bgimg-2 {
@@ -279,7 +278,7 @@ a {
   min-height: 400px;
 }
 .bgimg-3 {
-  background-image: url("http://www.spendlifetraveling.com/wp-content/uploads/2016/01/los_angeles_citytrip_short_visit_travel.jpg");
+  background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3032098-poster-p2-shutterstock186048416.jpg");
   min-height: 400px;
 }
 .bgimg-4 {
