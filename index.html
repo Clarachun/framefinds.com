@@ -38,7 +38,6 @@
               <li><a href="framefinds.com/Demo">Demo</a></li>
               <li><a href="framefinds.com/">Tags</a></li>
               <li><div class="loginbutton"><a href="login.html"><button type="button" class="btn btn-default navbar-btn">Log In</button></a></div></li>
-              <li><input type="text" name="search" placeholder="Search.."></li>
             </ul>
           </div>
         </div>
@@ -99,7 +98,7 @@
               <div class="class">
                 <div class="row">
                   <div class="col-sm-4 col-md-4 col-lg-4">
-                    <img src="http://www.iconsdb.com/icons/download/black/twitter-512.png">
+                    <img src="https://image.freepik.com/free-icon/social-twitter-bird-symbol_318-27588.png">
                   </div>
                   <div class="col-sm-4 col-md-4 col-lg-4">
                     <img src="https://image.freepik.com/free-icon/facebook-symbol_318-37686.png">
@@ -113,12 +112,20 @@
                 <div class="head">
                   <h1>Contact Us</h1>
                 </div>
+                <form method="post" name="contact_form"
+                action="contact-form-handler.php">
+                    <p><input type="text" placeholder="Name" name="name" class="comments" required></p>
+                    <p><input type="text" placeholder="Phone" name="phone" class="comments"></p>
+                    <p><input type="email" placeholder="Email" name="email" class="comments" required></p>
+                    <p><textarea type="text" placeholder="Comments" name="comments" class="comments" required></textarea></p>
+                    <input type="submit" value="Submit">
+                </form>
               </div>
             </div>
             <div class="container">
               <div class="glass">
                 <div class="row">
-                  <img src="http://www.iconsdb.com/icons/download/black/twitter-512.png">
+                  <img src="https://image.freepik.com/free-icon/social-twitter-bird-symbol_318-27588.png">
                   <img src="https://image.freepik.com/free-icon/facebook-symbol_318-37686.png">
                   <img src="https://5a5a57ff32a328601212-ee0df397c56b146e91fe14be42fa361d.ssl.cf1.rackcdn.com/icon/instagram_logos_glyph/03H5cHNMt-Jni4pe9u+7/glyph-logo_May2016_200.png">
                 </div>
