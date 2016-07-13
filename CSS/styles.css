@@ -94,7 +94,7 @@ a {
     width: 60%;
   }
   .caption span.border {
-    padding: 18px;
+    padding: 20px;
     letter-spacing: 10px;
   }
   .contact input {
@@ -102,6 +102,17 @@ a {
   }
   .contact textarea {
     width: 60%;
+  }
+  .fowl p {
+    text-align: left;
+    width: 60%;
+    }
+  .fowl h2 {
+    text-align: center;
+  }
+  .fowl {
+    width: 1349px;
+    height: 266px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -298,7 +309,6 @@ a {
   text-align: center;
   color: #000;
 }
-
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -314,10 +324,6 @@ a {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-.fowl {
-  color:#ddd;
-  background-color:#282E34;
-}
 .glass {
   margin: auto;
   text-align: center;
@@ -331,4 +337,11 @@ a {
   text-align: center;
   margin: auto;
   position: relative;
+}
+.about {
+  color:#ddd;
+  background-color:#282E34;
+}
+.fowl {
+  width: 60%;
 }
