@@ -2,6 +2,10 @@ body {
   font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
 }
+.loginbutton:hover {
+  background: white;
+  color: white;
+}
 li {
   color:black;
   font-family: 'Julius Sans One', sans-serif;
