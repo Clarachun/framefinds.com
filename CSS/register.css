@@ -64,9 +64,6 @@ a {
   .cats {
     padding: 75px;
   }
-  .width {
-
-  }
 }
 @media screen and (max-width: 600px) {
     .nav {

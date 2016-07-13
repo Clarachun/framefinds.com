@@ -1,6 +1,9 @@
-body {
-  font-family: 'Julius Sans One', sans-serif;
+body , html {
   text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  height: 100%;
+  margin: 0;
+  color:black;
 }
 .loginbutton:hover {
   background: white;
@@ -8,12 +11,10 @@ body {
 }
 li {
   color:black;
-  font-family: 'Julius Sans One', sans-serif;
   text-align: right;
 }
 p {
   color:black;
-  font-family: 'Julius Sans One', sans-serif;
   line-height: 2em;
   padding: 10px;
 }
@@ -25,10 +26,17 @@ h2 {
 }
 h3 {
   font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 5px;
+  color: #111;
+  padding: 30px;
+  margin: auto;
 }
 a {
   font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
+}
+.frogs {
+  font-family: 'Julius Sans One', sans-serif;
 }
 .frogs {
   font-family: 'Julius Sans One', sans-serif;
@@ -62,36 +70,37 @@ a {
 .nav li:last-child a {
     border-right: 0;
 }
-li:hover, li:active {
+.nav a:hover, nav a:active {
     background-color: #8c99a4;
-}
-li:hover.loginbutton {
-  background: white;
 }
 .nav a#pull {
     display: none;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-wdith: 768px) {
   .cats {
-    padding: 75px;
-  }
-  .works {
-    padding: 75px;
-  }
-  .contact-us p input {
+    padding: 100px;
     width: 30%;
+    text-align: center;
   }
-  .contact-us textarea {
-    width: 30%;
+  .fowl {
+    padding:50px 80px;
+    text-align: right;
   }
-  .works p {
-    padding-bottom:20px;
-    padding-top: 20px;
+  .fowl p {
+    width: 60%;
+    margin: auto;
+  }
+  h3 {
     width: 60%;
   }
-  .works h2 {
+  .caption span.border {
+    padding: 18px;
+  }
+  .contact input {
+    width: 200px;
+  }
+  .contact textarea {
     width: 60%;
-    padding-top: 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -120,24 +129,35 @@ li:hover.loginbutton {
         width: 100%;
         text-indent: 25px;
     }
-    .works {
-      width: 100%;
+    .cats {
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
-    .works h2 {
-      width: 100%;
+    .cats p {
+      text-align: center;
+    }
+    .fowl {
+      text-align: center;
+    }
+    .fowl p {
+      width: 60%;
       margin: auto;
-      padding-top: 20px;
     }
-    .works p {
-      padding-bottom:40px;
-      padding-top: 20px;
+    h3 {
       width: 100%;
     }
-    .contact-us p input {
-      width: 90%;
+    .caption span.border {
+      padding: 10px;
     }
-    .contact-us textarea {
-      width: 90%;
+    .contact p input {
+      width: 60%;
+    }
+    .contact textarea {
+      width: 100%;
+    }
+    .contact input {
+      width: 100%;
     }
 }
 @media only screen and (max-width : 480px) {
@@ -164,24 +184,35 @@ li:hover.loginbutton {
         right: 15px;
         top: 10px;
     }
-    .works {
-      width: 100%;
-      padding: 20px;
+    .cats {
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
-    .works h2 {
-      width: 100%;
-      padding-top: 20px;
+    .cats p {
       text-align: center;
     }
-    .works p {
-      padding-bottom:40px;
-      padding-top: 20px;
+    .fowl {
+      padding:5px;
+      text-align: center;
+    }
+    .fowl p {
+      width: 100%;
+      margin: auto;
+    }
+    h3 {
       width: 100%;
     }
-    .contact-us p input {
+    .caption span.border {
+      padding: 10px;
+    }
+    .contact input {
+      width: 60%;
+    }
+    .contact textarea {
       width: 100%;
     }
-    .contact-us textarea {
+    .contact p input {
       width: 100%;
     }
   }
@@ -194,149 +225,100 @@ li:hover.loginbutton {
     .nav li a {
         border-bottom: 1px solid #576979;
     }
-    .works {
-      width: 100%;
-      padding: 20px;
-    }
-    .works h2 {
-      width: 100%;
+    .cats {
       margin: auto;
-      padding-top: 20px;
+      width: 100%;
+    }
+    .cats p {
+      width: 100%;
+      text-align: left;
+    }
+    h3 {
+      font-family: 'Julius Sans One', sans-serif;
+      letter-spacing: 5px;
+      color: #111;
+      width: 100%;
+      text-align: left;
+    }
+    .fowl {
       text-align: center;
     }
-    .works p {
-      margin: auto;
-      padding-bottom:40px;
-      padding-top: 20px;
+    h3 {
       width: 100%;
     }
-    .contact-us p input {
+    .caption span.border {
+      padding: 10px;
+    }
+    .contact input {
+      width: 60%;
+    }
+    .contact textarea {
       width: 100%;
     }
-    .contact-us textarea {
+    .contact p input {
       width: 100%;
     }
 }
-.naan img {
-  width: 100%;
-}
-.cats {
-  margin: auto;
-  text-align: center;
-}
-.photo img {
-  width: 100%;
-}
-.nemo h2 {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 60px;
-}
-.nemo p {
-    height: 200px;
-    width: 200px;
-    padding-bottom: 20px;
-    padding-top: 40px;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    color: red;
-}
-.works {
-  width: 100%;
-}
-.demo {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-}
-.demo a {
-  text-align: center;
-  border: 1px solid black;
-  padding: 3px;
-  font-size: 30px;
-  color: black;
-}
-.demo a:hover {
-  border: 1px solid grey;
-  color: grey;
-  text-decoration: none;
-}
-.map-demo {
-  background-image: url('https://github.com/Clarachun/framefinds.com/blob/gh-pages/9160996_1280x720.jpg?raw=true');
-  background-size: cover;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 70%;
-  padding: 20px;
+  background-size: cover;
+
 }
-.theatre {
-  display: table;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  padding: 20px;
+.bgimg-1 {
+  background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
+  min-height: 100%;
 }
 
-.theatre .stage {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
+.bgimg-2 {
+  background-image: url("https://www.choicehotels.com/cms/images/choice-hotels/citys/413541-Los-Angeles/413541-Los-Angeles.jpg");
+  min-height: 400px;
 }
-.email {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: #A9A9A9;
+.bgimg-3 {
+  background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3032098-poster-p2-shutterstock186048416.jpg");
+  min-height: 400px;
 }
-.email img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.bgimg-4 {
+  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  min-height: 100%;
 }
-.email h2 {
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
   text-align: center;
-  padding: 20px;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 10px;
 }
 .contact {
   padding: 40px;
-  margin: auto;
   text-align: center;
   width: 100%;
 }
-.head h1 {
-  text-align: center;
+.input[type=text] {
+    width: 50%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
-.contact img {
-  width: 130px;
-  height: 130px;
-  padding: 30px;
-  text-align: center;
-  margin: auto;
-  position: relative;
-}
-.class h1 {
-  text-align: center;
-}
-.copyright {
-  width: 100%;
-  background: white;
-  color: black;
-  text-align: right;
-}
-#mymodal {
-  padding: 20px;
-}
-h4 {
-  font-family: 'Julius Sans One', sans-serif;
+.fowl {
+  color:#ddd;
+  background-color:#282E34;
 }
 .glass {
   margin: auto;
   text-align: center;
-  width: 30%;
+  width: 40%;
 }
 
 .glass img {
@@ -347,38 +329,3 @@ h4 {
   margin: auto;
   position: relative;
 }
-.input[type=text] {
-    width: 50%;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-.head p {
-  text-align: right;
-}
-.works p {
-  margin: auto;
-  padding-top: 20px;
-}
-.works h2 {
-  padding-top: 20px;
-  text-align: center;
-  margin: auto;
-}
-.email {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: #A9A9A9;
-}
-.email img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.email h2 {
-  text-align: center;
-  padding: 20px;
-}
-
-/* When the input field gets focus, change its width to 100% */
