@@ -364,5 +364,21 @@ h4 {
   text-align: center;
   margin: auto;
 }
+.email {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #A9A9A9;
+}
+.email img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email h2 {
+  text-align: center;
+  padding: 20px;
+}
 
 /* When the input field gets focus, change its width to 100% */
