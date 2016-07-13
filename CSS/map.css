@@ -1,3 +1,7 @@
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: uppercase;
+}
 li {
   color:black;
   font-family: 'Julius Sans One', sans-serif;
@@ -8,6 +12,9 @@ p {
   font-family: 'Julius Sans One', sans-serif;
   line-height: 2em;
   padding: 10px;
+}
+.loginbutton {
+  padding-left: 10px;
 }
 h1 {
   font-family: 'Julius Sans One', sans-serif;
