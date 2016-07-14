@@ -112,6 +112,9 @@ a {
   .contact input {
     width: 30%;
   }
+  .bgimg-1 {
+    min-height: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -166,6 +169,9 @@ a {
     .contact input {
       width: 50%;
     }
+    .bgimg-1 {
+      min-width: 100%;
+    }
 }
 @media only screen and (max-width : 480px) {
     .nav {
@@ -219,6 +225,9 @@ a {
     .contact input {
       width: 50%;
     }
+    .bgimg-1 {
+      min-width: 100%;
+    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -258,6 +267,9 @@ a {
     }
     .contact input {
       width: 50%;
+    }
+    .bgimg-1 {
+      min-width: 100%;
     }
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
