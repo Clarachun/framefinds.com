@@ -20,21 +20,6 @@
     </head>
 
     <body>
-      <script>
-      var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
-      "
-      "
-      if (!isiOS){
-        window.addEventListener('scroll', function(){ // on page scroll
-          requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
-        }, false)
-        window.addEventListener('resize', function(){ // on window resize
-          var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
-          var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
-          fish.style.left = -100 + scrollamount + '%' // set position of fish in percentage (starts at -100%)
-        }, false)
-      }
-      </script>
       <!---navigation bar--->
       <nav class="navbar navbar-default navbar-fixed-top t-nav">
         <div class="frogs">
@@ -62,6 +47,9 @@
       </nav>
 
       <div class="bgimg-1">
+        <div class="hide">
+          <img src="https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200">
+        </div>
       </div>
 
       <div class="about">

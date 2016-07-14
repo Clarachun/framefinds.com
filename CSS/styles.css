@@ -112,6 +112,12 @@ a {
   .contact input {
     width: 30%;
   }
+  .hide {
+    width: 0px;
+    height: 0px;
+    font-size: 0;
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -166,6 +172,11 @@ a {
     .contact input {
       width: 50%;
     }
+    .hide {
+      width: 100% !important;
+      font-size: 12px !important;
+      display: block !important;
+    }
 }
 @media only screen and (max-width : 480px) {
     .nav {
@@ -219,6 +230,11 @@ a {
     .contact input {
       width: 50%;
     }
+    .hide {
+      width: 100% !important;
+      font-size: 12px !important;
+      display: block !important;
+    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -258,6 +274,11 @@ a {
     }
     .contact input {
       width: 50%;
+    }
+    .hide {
+      width: 100% !important;
+      font-size: 12px !important;
+      display: block !important;
     }
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
