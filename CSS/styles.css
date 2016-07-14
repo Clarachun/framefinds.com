@@ -173,7 +173,7 @@ a {
       width: 50%;
     }
     .hide {
-      width: 100% !important;
+      height: 100% !important;
       font-size: 12px !important;
       display: block !important;
     }
@@ -231,7 +231,7 @@ a {
       width: 50%;
     }
     .hide {
-      width: 100% !important;
+      height: 100% !important;
       font-size: 12px !important;
       display: block !important;
     }
@@ -276,7 +276,7 @@ a {
       width: 50%;
     }
     .hide {
-      width: 100% !important;
+      height: 100% !important;
       font-size: 12px !important;
       display: block !important;
     }
