@@ -280,7 +280,11 @@ a {
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.65;
+<<<<<<< HEAD
   background-attachment: FIXED;
+=======
+  background-attachment: fixed;
+>>>>>>> parent of 11ab722... I AM THE CAT LORD!
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
