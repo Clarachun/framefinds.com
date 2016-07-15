@@ -364,3 +364,7 @@ a {
 .cats {
   text-align: center;
 }
+.bgimg-1 .caption h1 {
+  font-size: 50px;
+  text-align: center;
+}
