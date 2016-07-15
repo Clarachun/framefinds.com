@@ -100,17 +100,16 @@ a {
     padding: 20px;
     letter-spacing: 10px;
   }
-  .contact input {
-    width: 40%;
-  }
-  .contact textarea {
-    width: 60%;
-  }
   .works h2 {
     text-align: center;
   }
   .contact input {
     width: 30%;
+  }
+  .contact p input {
+  }
+  .contact textarea {
+    width: 60%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -166,6 +165,12 @@ a {
     .contact input {
       width: 50%;
     }
+    .contact p input {
+      width: 100%;
+    }
+    .contact textarea {
+      width: 100%;
+    }
 }
 @media only screen and (max-width : 480px) {
     .nav {
@@ -219,6 +224,12 @@ a {
     .contact input {
       width: 50%;
     }
+    .contact p input {
+      width:100%;
+    }
+    .contact textarea {
+      width: 100%;
+    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -259,6 +270,12 @@ a {
     .contact input {
       width: 50%;
     }
+    .contact p input {
+      width: 100%;
+    }
+    .contact textarea {
+      width: 100%;
+    }
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
@@ -282,7 +299,6 @@ a {
 .bgimg-3 {
   background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3032098-poster-p2-shutterstock186048416.jpg");
   min-height: 400px;
-  width: 100%
 }
 .bgimg-4 {
   background-image: url("https://media.timeout.com/images/102692209/image.jpg");
@@ -312,12 +328,6 @@ a {
   padding: 40px;
   text-align: center;
   width: 100%;
-}
-.contact p input {
-  width: 30%;
-}
-.contact textarea {
-  width: 30%;
 }
 .input[type=text] {
     width: 50%;
