@@ -18,27 +18,16 @@ p {
   line-height: 2em;
   padding: 10px;
 }
-h1 {
-  font-family: 'Julius Sans One', sans-serif;
-}
-h2 {
-  font-family: 'Julius Sans One', sans-serif;
-}
 h3 {
   font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 5px;
   padding: 30px;
   margin: auto;
+  text-align: center;
 }
 a {
   font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
-}
-.frogs {
-  font-family: 'Julius Sans One', sans-serif;
-}
-.frogs {
-  font-family: 'Julius Sans One', sans-serif;
 }
 .navbar {
   background: white;
@@ -284,27 +273,27 @@ a {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
+  background-image: url("http://orig00.deviantart.net/2b2d/f/2012/053/e/0/sunrise_in_los_angeles_by_schwartzman93-d4qo881.jpg");
   height: 100%;
   width: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("https://www.choicehotels.com/cms/images/choice-hotels/citys/413541-Los-Angeles/413541-Los-Angeles.jpg");
+  background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200");
   min-height: 400px;
   width: 100%;
 }
 .bgimg-3 {
-  background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3032098-poster-p2-shutterstock186048416.jpg");
+  background-image: url("https://www.choicehotels.com/cms/images/choice-hotels/citys/413541-Los-Angeles/413541-Los-Angeles.jpg");
   min-height: 400px;
 }
 .bgimg-4 {
-  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  background-image: url("http://www.socialventurepartners.org/los-angeles/wp-content/uploads/sites/49/2013/05/Los-Angeles-Slider1.jpg");
   min-height: 100%;
   width: 100%;
 }
 .bgimg-5 {
-  background-image: url("https://media.timeout.com/images/102692209/image.jpg");
+  background-image: url("https://homehero-production.s3.amazonaws.com/article-assets/Los-Angeles-Skyline.jpg");
   min-height: 100%;
   width: 100%;
 }

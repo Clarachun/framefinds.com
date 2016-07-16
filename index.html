@@ -37,8 +37,8 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="framefinds.com/Demo">Demo</a></li>
-                <li><a href="framefinds.com/">Tags</a></li>
+                <li><a href="filtering.html">Demo</a></li>
+                <li><a href="featured.html">Featured</a></li>
                 <li><div class="loginbutton"><a href="login.html"><button type="button" class="btn btn-default navbar-btn">Log In</button></a></div></li>
               </ul>
             </div>
@@ -130,7 +130,11 @@
           </div>
           <form method="post" name="contact_form"
           action="contact-form-handler.php">
-              <p><input type="text" placeholder="Name" name="name" class="comments" required></p>
+              <p>
+                <div class="col-sm-12">
+                  <input type="text" placeholder="Name" name="name" class="comments" required>
+                </div>
+              </p>
               <p><input type="text" placeholder="Phone" name="phone" class="comments"></p>
               <p><input type="email" placeholder="Email" name="email" class="comments" required></p>
               <p><textarea type="text" placeholder="Comments" name="comments" class="comments" required></textarea></p>
