@@ -173,9 +173,11 @@ a {
 }
 .filterable {
     z-index:0;
-    position:relative;
     text-align: center;
     border: 10px;
+    display: inline-block;
+    position: static !important;
+    padding: 40px;
 }
 
 .filterable img {
@@ -350,5 +352,5 @@ body {
   padding-right: 0px;
 }
 .super-toast {
-  margin: auto;
+  text-align: center;
 }
