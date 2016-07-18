@@ -12,44 +12,138 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/profilestyles.css">
-        <link rel="stylesheet" href="https://www.behance.net/gallery/23468357/Moon-Free-Font">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     </head>
 
     <body>
-      <!---navigation bar--->
-
-      <nav class="navbar navbar-default f-nav">
+      <nav class="navbar navbar-default navbar-fixed-top t-nav">
         <div class="frogs">
           <div class="container">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">FrameFinds</a>
+              <a class="navbar-brand" href="">FrameFinds</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#ourteam">Hello</a></li>
-              <li><a href="#">Tags</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="filtering.html">Demo</a></li>
+                <li><a href="featured.html">Featured</a></li>
+                <li>
+                  <!-- Single button -->
+                  <div class="btn-group loginbutton">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Action <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="profile.html">Profile</a></li>
+                      <li><a href="#">Settings</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div class="profile">
-          <div class="row">
-            <div id="profile-picture">
-              <img src="http://lorempixel.com/200/200/foo" alt="" />
-            </div>
-            <div id="username">
-              <h2>Username Goes Here</h2>
-            </div>
+    <div class="container">
+      <div class="profile">
+        <div class="row">
+          <div id="profile-picture">
+            <p>
+              <img src="http://lorempixel.com/200/200/foo" alt="Headshot photo" class="left" />
+              <h1>Katie Scott</h1>
+              <h3>@katiescott123</h3>
+              <p><strong>about</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget fermentum ante. Sed eleifend mauris vitae diam ullamcorper ornare. In luctus ex mi, id cursus arcu congue id. In velit nisi, scelerisque sed mauris ac, consectetur vulputate sem. </p>
+            </p>
           </div>
-          <div id="basic-profile-info">
-            <p><strong>Name:</strong> Jane Doe<br>
-            <strong>Age:</strong></p>
+        </div>
+        <div class="glass">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Posts</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Locations</a></li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/130262-200.png"></a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/539084-200.png"></a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="foulcreature">
+                  <div class="chara taken nb human">
+                    <div class="goodies">
+                      <div class="charatitle">
+                        <span>
+                          <p>Tovanga Park</p>
+                        </span>
+                      </div>
+                      <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="foulcreature">
+                  <div class="chara taken nb human">
+                    <div class="goodies">
+                      <div class="charatitle">
+                        <span>
+                          <p>Tovanga Park</p>
+                        </span>
+                      </div>
+                      <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="foulcreature">
+                  <div class="chara taken nb human">
+                    <div class="goodies">
+                      <div class="charatitle">
+                        <span>
+                          <p>Tovanga Park</p>
+                        </span>
+                      </div>
+                      <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="foulcreature">
+                  <div class="chara taken nb human">
+                    <div class="goodies">
+                      <div class="charatitle">
+                        <span>
+                          <p>Tovanga Park</p>
+                        </span>
+                      </div>
+                      <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">...</div>
+            <div role="tabpanel" class="tab-pane" id="messages">...</div>
+            <div role="tabpanel" class="tab-pane" id="settings">...</div>
           </div>
         </div>
       </div>
-        <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 </html>
