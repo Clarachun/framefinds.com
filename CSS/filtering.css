@@ -65,11 +65,7 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-wdith: 760px) {
-  .fruit {
-    padding: 20px;
-    padding-top: 100px;
-  }
+@media screen and (min-width: 760px) {
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -98,7 +94,6 @@ a {
       text-indent: 25px;
     }
     .fruit {
-      padding: 20px;
       padding-top: 20 px;
     }
 }
@@ -127,7 +122,6 @@ a {
       top: 10px;
     }
     .fruit {
-      padding: 20px;
       padding-top: 20 px;
     }
   }
@@ -141,7 +135,6 @@ a {
         border-bottom: 1px solid #576979;
     }
     .fruit {
-      padding: 20px;
       padding-top: 20 px;
     }
 }
@@ -180,9 +173,6 @@ a {
 .btn {
   height: 34px;
 }
-.fruit {
-  padding: 20px;
-}
 .chara {
     width:200px;
     height:240px;
@@ -193,7 +183,7 @@ a {
     text-align: center;
 }
 
-.charaimg {
+.chara img {
     width:100%;
     height: 200px;
     z-index:1;
@@ -244,9 +234,6 @@ a {
   width: 190px;
   height: 100px;
   padding: 10px;
-}
-.ice {
-  padding: 30px;
 }
 .input-group {
   margin: auto;
