@@ -20,8 +20,6 @@ p {
 }
 h3 {
   font-family: 'Julius Sans One', sans-serif;
-  letter-spacing: 5px;
-  padding: 30px;
   margin: auto;
   text-align: center;
 }
@@ -192,7 +190,8 @@ a {
 .charatitle {
     background-color:#333;
     width:100%;
-    padding:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
     color:#fff;
     text-align:center;
     z-index:2;
@@ -333,8 +332,9 @@ body {
   display: inline-block;
   vertical-align: top;
   line-height: 32px;
-  margin-right: 0.2em;
   font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .ui-group .button-group {
@@ -342,26 +342,6 @@ body {
   margin-right: 20px;
 }
 
-/* color-shape */
-
-.color-shape {
-  width: 70px;
-  height: 70px;
-  margin: 5px;
-  float: left;
+.fanny {
+  padding-top: 10px;
 }
-
-.color-shape.round {
-  border-radius: 35px;
-}
-
-.color-shape.big.round {
-  border-radius: 75px;
-}
-
-.color-shape.red { background: red; }
-.color-shape.blue { background: blue; }
-.color-shape.yellow { background: yellow; }
-
-.color-shape.wide, .color-shape.big { width: 150px; }
-.color-shape.tall, .color-shape.big { height: 150px; }
