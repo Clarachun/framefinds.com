@@ -1,131 +1,590 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Frame Finds</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/idea.css">
-        <link rel="stylesheet" href="js/idea.js">
-        <link rel="stylesheet" href="https://www.behance.net/gallery/23468357/Moon-Free-Font">
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-        <script src="js/prefixfree.min.js"></script>
     </head>
+<body>
 
-    <body>
-      <div class="container">
-      	<div class="row">
-              <div class="col-md-3">
-                  <form action="#" method="get">
-                      <div class="input-group">
-                          <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                          <input class="form-control" id="system-search" name="q" placeholder="Search for" required>
-                          <span class="input-group-btn">
-                              <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
-                          </span>
-                      </div>
-                  </form>
+    <div class='sidebar'>
+
+        <h1>Characters</h1> <!-- Page title goes here. -->
+
+        <div class="nav">
+        <!-- Navigation links, change them to whatever you want. -->
+            <a href="http://www.tumblr.com">link 1</a>
+            <a href="http://www.tumblr.com">link 2</a>
+            <a href="http://www.tumblr.com">link 3</a>
+        </div>
+
+        <div class="desc">
+            <p>Description goes here! You can sort by multiple criteria, give it a shot.</p>
+        </div>
+
+        <div class="filters">
+            <h2>Status</h2>
+            <div class="button-group" data-filter-group="status">
+                <button data-filter="" class="button ischecked">any</button>
+                <button data-filter=".open" class="button">open</button>
+                <button data-filter=".taken" class="button">taken</button>
+            </div>
+
+            <h2>Gender</h2>
+            <div class="button-group" data-filter-group="gender">
+                <button data-filter="" class="button ischecked">any</button>
+                <button data-filter=".male" class="button">male</button>
+                <button data-filter=".female" class="button">female</button>
+                <button data-filter=".nb" class="button">non-binary</button>
+            </div>
+
+            <h2>Species</h2>
+            <div class="button-group" data-filter-group="species">
+                <button data-filter="" class="button ischecked">any</button>
+                <button data-filter=".human" class="button">human</button>
+                <button data-filter=".werewolf" class="button">werewolf</button>
+                <button data-filter=".vampire" class="button">vampire</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="wrapper"> <!-- All of your character boxes should go in here. -->
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="foulcreature">
+          <div class="chara taken nb human">
+            <div class="goodies">
+              <div class="charatitle">
+                <span>
+                  <p>Tovanga Park</p>
+                </span>
               </div>
-      		<div class="col-md-9">
-          	 <table class="table table-list-search">
-                          <thead>
-                              <tr>
-                                  <th>Entry</th>
-                                  <th>Entry</th>
-                                  <th>Entry</th>
-                                  <th>Entry</th>
-                                  <th>Entry</th>
-                                  <th>Entry</th>
-                              </tr>
-                          </thead>
-                          <tbody>
-                              <tr>
-                                  <td>Sample</td>
-                                  <td>Filter</td>
-                                  <td>12-11-2011 11:11</td>
-                                  <td>OK</td>
-                                  <td>123</td>
-                                  <td>Do some other</td>
-                              </tr>
-                              <tr>
-                                  <td>Try</td>
-                                  <td>It</td>
-                                  <td>11-20-2013 08:56</td>
-                                  <td>It</td>
-                                  <td>Works</td>
-                                  <td>Do some FILTERME</td>
-                              </tr>
-                              <tr>
-                                  <td>§</td>
-                                  <td>$</td>
-                                  <td>%</td>
-                                  <td>&</td>
-                                  <td>/</td>
-                                  <td>!</td>
-                              </tr>
-                          </tbody>
-                      </table>
-      		</div>
-      	</div>
+              <div class="charahover">
+                <img src="http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2013/10/Tongva-Park-James-Corner-Field-Operations-lead.jpg">
+                <img src="http://www.canyon-news.com/wp-content/uploads/2015/07/Tongva-Park-09_2014-0428_1600_1003_60.jpg">
+              </div>
+              <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+            </div>
+          </div>
+        </div>
       </div>
-      <script>
-      $(document).ready(function() {
-          var activeSystemClass = $('.list-group-item.active');
 
-          //something is entered in search form
-          $('#system-search').keyup( function() {
-             var that = this;
-              // affect all table rows on in systems table
-              var tableBody = $('.table-list-search tbody');
-              var tableRowsClass = $('.table-list-search tbody tr');
-              $('.search-sf').remove();
-              tableRowsClass.each( function(i, val) {
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="foulcreature">
+          <div class="chara taken nb human">
+            <div class="goodies">
+              <div class="charatitle">
+                <span>
+                  <p>Tovanga Park</p>
+                </span>
+              </div>
+              <div class="charahover">
+                <img src="http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2013/10/Tongva-Park-James-Corner-Field-Operations-lead.jpg">
+                <img src="http://www.canyon-news.com/wp-content/uploads/2015/07/Tongva-Park-09_2014-0428_1600_1003_60.jpg">
+              </div>
+              <img src="http://s3-media4.fl.yelpcdn.com/bphoto/zPtOwKs9YWJwHVpTfnoo4A/348s.jpg" class="charaimg">
+            </div>
+          </div>
+        </div>
+      </div>
 
-                  //Lower text for case insensitive
-                  var rowText = $(val).text().toLowerCase();
-                  var inputText = $(that).val().toLowerCase();
-                  if(inputText != '')
-                  {
-                      $('.search-query-sf').remove();
-                      tableBody.prepend('<tr class="search-query-sf"><td colspan="6"><strong>Searching for: "'
-                          + $(that).val()
-                          + '"</strong></td></tr>');
-                  }
-                  else
-                  {
-                      $('.search-query-sf').remove();
-                  }
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open female human">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Female Human</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/b4/9e/ab/b49eaba85af902099b6f943395aad08a.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
 
-                  if( rowText.indexOf( inputText ) == -1 )
-                  {
-                      //hide rows
-                      tableRowsClass.eq(i).hide();
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken female human">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Female Human</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://40.media.tumblr.com/faeef3a9535c04908fbb7739dee30dbe/tumblr_n8y2r0UJF61r99lyzo1_500.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
 
-                  }
-                  else
-                  {
-                      $('.search-sf').remove();
-                      tableRowsClass.eq(i).show();
-                  }
-              });
-              //all tr elements are hidden
-              if(tableRowsClass.children(':visible').length == 0)
-              {
-                  tableBody.append('<tr class="search-sf"><td class="text-muted" colspan="6">No entries found.</td></tr>');
-              }
-          });
-      });
-      </script>
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open nb human">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Non-binary Human</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://galoremag.com/wp-content/uploads/2014/09/Erika-6.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
 
-      <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </body>
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken nb human">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Non-binary Human</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://cdn.papermag.com/uploaded_images/look_03_005_web.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+         <!-- BEGIN COPY PASTE -->
+        <div class="chara open male werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Male Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://orig12.deviantart.net/5d37/f/2014/343/e/f/werewolf_big_by_7wood-d899pks.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken male werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Male Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/e1/15/ca/e115ca3b9beb6587095737c10fdd7a5e.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open female werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Female Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="https://ploogmissingpieces.files.wordpress.com/2012/08/werewolf-art.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken female werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Female Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://www.creaturebrush.com/images2013/CA_werewolf_TH.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open nb werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Non-binary Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://orig00.deviantart.net/8743/f/2011/137/a/3/werewolf_by_alanvadell-d3glafs.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken nb werewolf">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Non-binary Werewolf</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://www.paulmudie.com/images/howl-of-the-werewolf.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+         <!-- BEGIN COPY PASTE -->
+        <div class="chara open male vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Male Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://i975.photobucket.com/albums/ae237/heaventemptress/EXTRABGSSSSSSSSSSSSSS/fantasy-dark--Rocks-My-World--fantasy--vampire--favorites--male--vamp--satisfied--blood--Goth-and-Special-Pics--Other-2--man--Halloween-Imag.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken male vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Male Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://images6.fanpop.com/image/polls/1254000/1254924_1375018786939_full.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open female vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Female Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://evilladies.com/http://evilladies.com/wp-content/uploads/Woman-vampire-picture.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken female vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Female Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://img08.deviantart.net/c2be/i/2013/132/c/a/vampire_girl_6_by_marija_buljeta-d6504nt.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara open nb vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Open Non-binary Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://img08.deviantart.net/191f/i/2010/202/7/9/real_vampire_by_illogan.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+        <!-- BEGIN COPY PASTE -->
+        <div class="chara taken nb vampire">
+            <div class="charatitle"><span>
+                <!-- This is where the title text goes. Keep it in the p tags. It looks best with 2 lines of text.-->
+                <p>Taken Non-binary Vampire</p>
+                <p>Lorem Ipsum</p>
+            </span></div>
+            <div class="charahover">
+                <p>Extra info goes here! Use a p tag for every new paragraph.</p>
+                <p><strong>Bold</strong>, <em>italics</em>, <del>strikethrough</del>, <a href="/">link</a></p>
+                <ul>
+                    <li>Here's</li>
+                    <li>a</li>
+                    <li>list</li>
+                </ul>
+                <ol>
+                    <li>Here's</li>
+                    <li>another</li>
+                    <li>list</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum metus, placerat eget turpis vel, commodo ullamcorper velit. Cras elementum, massa id commodo tincidunt, augue ante dictum arcu, in iaculis ligula dolor non lacus. Cras vitae quam ac libero eleifend maximus vitae ac lacus. Fusce id augue sapien. In nec posuere ligula. Nam pulvinar sem semper mi aliquam cursus. Aliquam nulla turpis, egestas non eros in, luctus semper augue. Fusce facilisis erat ante, lacinia elementum turpis porta ac.</p>
+                <p>Quisque sagittis in augue sit amet vestibulum. Suspendisse quis elementum dolor. Proin molestie rutrum elit, a blandit diam dictum sit amet. Curabitur sed lobortis nulla. Pellentesque vitae molestie magna, sed gravida arcu. Vivamus sit amet justo id nisi pretium placerat vel eget ligula. Donec ac turpis ex. Nulla quis pulvinar leo.</p>
+            </div>
+            <img src="http://www.grimerica.ca/wp-content/uploads/2013/06/20130615-190500.jpg" class="charaimg"> <!-- Put the url for your image between the quotes in src="". Images will look best at 200px by 250px. -->
+        </div>
+        <!-- END COPY PASTE -->
+
+
+
+
+
+    </div> <!-- Don't put any character boxes after this tag! -->
+    <a href="http://hendrixrph.tumblr.com"><div class="credit">hendrixrph</div></a>
+
+
+    <!-- All the filtering scripts. No need to mess with these unless you know what you're doing. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.js"></script>
+    <script>
+
+// external js: isotope.pkgd.js
+
+$(document).ready( function() {
+  // init Isotope
+  var $grid = $('.wrapper').isotope({
+    itemSelector: '.chara'
+  });
+
+  // store filter for each group
+  var filters = {};
+
+  $('.filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = concatValues( filters );
+    // set filter for Isotope
+    $grid.isotope({ filter: filterValue });
+  });
+
+  // change is-checked class on buttons
+  $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.ischecked').removeClass('ischecked');
+      $( this ).addClass('ischecked');
+    });
+  });
+
+});
+
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
