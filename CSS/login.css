@@ -204,7 +204,7 @@ a {
 	position: absolute;
   width: 100%;
   height: 100%;
-	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-image: url(https://www.exciteholidays.com/campaigns/losangeles/wp-content/uploads/sites/4/2016/01/06-1.jpg);
 	background-size: cover;
 	-webkit-filter: blur(5px);
 }
@@ -315,9 +315,11 @@ a {
 .login-1 .cows {
   font-size: 14px;
   font-family: 'Julius Sans One', sans-serif;
+  color: white;
 }
 .login-register p {
   font-size: 20px;
+  color: white;
 }
 .works {
   width: 100%;

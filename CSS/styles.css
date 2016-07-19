@@ -65,40 +65,12 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-wdith: 768px) {
-  .cats {
-    padding: 100px;
-    width: 30%;
-    text-align: center;
+@media screen and (min-width: 768px) {
+  input.comments {
+    width: 300px;
   }
-  .works {
-    width: 50%;
-    margin: auto;
-  }
-  .works p {
-    width: 60%;
-    text-align: right;
-  }
-  .caption span.border a {
-    padding: 20px;
-  }
-  h3 {
-    width: 60%;
-  }
-  .caption span.border {
-    padding: 20px;
-    letter-spacing: 10px;
-  }
-  .works h2 {
-    text-align: center;
-  }
-  .contact input {
-    width: 30%;
-  }
-  .contact p input {
-  }
-  .contact textarea {
-    width: 60%;
+  textarea.comments {
+    width: 300px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -151,14 +123,11 @@ a {
       padding: 10px;
       letter-spacing: 8px;
     }
-    .contact input {
-      width: 50%;
+    input.comments {
+      width: 300px;
     }
-    .contact p input {
-      width: 100%;
-    }
-    .contact textarea {
-      width: 100%;
+    textarea.comments {
+      width: 300px;
     }
 }
 @media only screen and (max-width : 480px) {
@@ -210,14 +179,11 @@ a {
       padding: 10px;
       letter-spacing: 6px;
     }
-    .contact input {
-      width: 50%;
+    input.comments {
+      width: 300px;
     }
-    .contact p input {
-      width:100%;
-    }
-    .contact textarea {
-      width: 100%;
+    textarea.comments {
+      width: 300px;
     }
   }
   @media only screen and (max-width : 320px) {
@@ -254,14 +220,11 @@ a {
       padding: 10px;
       letter-spacing: 4px;
     }
-    .contact input {
-      width: 50%;
+    input.comments {
+      width: 250px;
     }
-    .contact p input {
-      width: 100%;
-    }
-    .contact textarea {
-      width: 100%;
+    textarea.comments {
+      width: 250px;
     }
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
@@ -364,4 +327,10 @@ a {
 .bgimg-1 .caption h1 {
   font-size: 50px;
   text-align: center;
+}
+.container {
+  width: 90%;
+}
+.input {
+  text-align: 50px;
 }
