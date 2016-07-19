@@ -76,7 +76,7 @@ a {
 .nav a#pull {
     display: none;
 }
-@media screen and (min-wdith: 768px) {
+@media screen and (min-width: 768px) {
   .cats {
     padding: 100px;
     width: 30%;
@@ -115,10 +115,17 @@ a {
   .about-us {
     text-align: left;
   }
+  .dog {
+    width: 60%;
+    text-align: right;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
       height: auto;
+    }
+    .dog {
+      text-align: center;
     }
     .nav ul li {
       width:100%;
@@ -350,9 +357,11 @@ a {
 }
 .dog {
   margin: auto;
-  text-align: right;
   padding-top: 30px;
-  width: 60%;
+  color: white;
+}
+.dog p {
+  color: white;
 }
 .nemo h2 {
   text-align: center;
@@ -382,6 +391,7 @@ a {
 .story p {
   width: 60%;
   margin: auto;
+  text-align: center;
 }
 .team-one {
   padding: 100px;
