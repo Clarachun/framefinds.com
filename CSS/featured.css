@@ -1,8 +1,6 @@
 body , html {
   text-transform: uppercase;
   font-family: 'Julius Sans One', sans-serif;
-  height: 100%;
-  margin: 0;
   color:black;
 }
 .loginbutton:hover {
@@ -16,11 +14,6 @@ li {
 p {
   color:black;
   line-height: 2em;
-  padding: 10px;
-}
-h3 {
-  margin: auto;
-  text-align: center;
 }
 a {
   text-decoration: none;
@@ -62,10 +55,6 @@ a {
     display: none;
 }
 @media screen and (min-width: 760px) {
-  .charahover {
-      width: 432px;
-      height: 287.5px;
-  }
 }
 @media screen and (max-width: 600px) {
     .nav {
@@ -118,9 +107,6 @@ a {
       right: 15px;
       top: 10px;
     }
-    .fruit {
-      padding-top: 20 px;
-    }
   }
   @media only screen and (max-width : 320px) {
     .nav li {
@@ -132,6 +118,7 @@ a {
         border-bottom: 1px solid #576979;
     }
 }
-.follow-me{
-	padding: 100px;
+.item img{
+  margin: auto;
+  height: 600px;
 }
