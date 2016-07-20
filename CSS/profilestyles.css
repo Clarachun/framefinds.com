@@ -190,7 +190,11 @@ a {
   width: 86%;
   margin: auto;
 }
-.glass img {
+.glass ul img {
+  width: 20px;
+  height: 20px;
+}
+.glass span img {
   width: 20px;
   height: 20px;
 }
@@ -203,13 +207,6 @@ a {
 .goodies {
   width: 200px;
   height: 240px;
-}
-.goodies img{
-  width: 200px;
-  height: 240px;
-}
-.goodies .charatitle span p {
-  width: 200px;
 }
 .charatitle {
     background-color:#333;
