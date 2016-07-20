@@ -24,18 +24,18 @@ p {
   padding: 10px;
 }
 h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 5px;
+  padding: 30px;
   margin: auto;
   text-align: center;
 }
 a {
+  font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
 }
 .navbar {
   background: white;
-}
-.navbar-btn {
-    margin-top: 0px;
-    margin-bottom: 8px;
 }
 .nav ul {
   list-style: none;
