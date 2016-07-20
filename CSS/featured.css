@@ -123,9 +123,13 @@ a {
   height: 600px;
 }
 #myCarousel {
-  padding-top: 51px;
+  padding-top:51px;
 }
-
+.carousel-inner {
+  background: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -147,6 +151,17 @@ a {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+.marketing {
+  padding: 30px;
+}
+.thyme {
+  padding: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.thyme h1{
+    font-size: 40px;
 }
 
 
@@ -186,4 +201,11 @@ a {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+.carousel-caption p {
+  color: white;
+  background: black;
+  opacity: 0.9;
+  width: 200px;
+  margin: auto;
 }
