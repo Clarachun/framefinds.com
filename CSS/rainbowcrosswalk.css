@@ -69,6 +69,11 @@ a {
   .golf {
     width: 60%;
   }
+  .loginbutton {
+    padding-top: 7px;
+    margin: auto;
+    text-align: auto;
+  }
 }
 @media screen and (max-width: 600px) {
     .nav {
