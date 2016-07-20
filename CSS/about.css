@@ -27,8 +27,8 @@ h2 {
 h3 {
   font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 5px;
-  padding: 30px;
-  margin: auto;
+  padding-top: 15px;
+  text-align: center;
 }
 a {
   font-family: 'Julius Sans One', sans-serif;
@@ -93,9 +93,6 @@ a {
   .caption span.border a {
     padding: 20px;
   }
-  h3 {
-    width: 60%;
-  }
   .caption span.border {
     padding: 20px;
     letter-spacing: 10px;
@@ -118,6 +115,15 @@ a {
   .dog {
     width: 60%;
     text-align: right;
+  }
+  .team-one {
+    padding: 100px;
+    margin: auto;
+  }
+  .team-two {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 75px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -250,13 +256,6 @@ a {
       width: 100%;
     }
     .cats p {
-      width: 100%;
-      text-align: left;
-    }
-    h3 {
-      font-family: 'Julius Sans One', sans-serif;
-      letter-spacing: 5px;
-      color: #111;
       width: 100%;
       text-align: left;
     }
@@ -394,7 +393,10 @@ a {
   text-align: center;
 }
 .team-one {
-  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+.team-two {
   margin: auto;
   text-align: center;
 }
@@ -402,13 +404,6 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-}
-.team-two {
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-top: 75px;
-  margin: auto;
-  text-align: center;
 }
 .team-two img {
   width: 200px;
@@ -428,4 +423,7 @@ a {
   text-align: center;
   margin: auto;
   position: relative;
+}
+.team-icons p {
+  text-align: center;
 }

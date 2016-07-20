@@ -328,17 +328,3 @@ a {
 .panel-group {
   padding-top: 20px;
 }
-.glass {
-  margin: auto;
-  text-align: center;
-  width: 40%;
-}
-
-.glass img {
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  text-align: center;
-  margin: auto;
-  position: relative;
-}
