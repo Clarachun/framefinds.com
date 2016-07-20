@@ -215,6 +215,16 @@ a {
   width: 200px;
   height: 200px;
 }
+.foodies {
+  width: 202px;
+  height: 244px;
+  border: 1px solid black;
+  margin: 0;
+}
+.foodies img {
+  width: 200px;
+  height: 200px;
+}
 .charatitle {
     background-color:white;
     padding-top:10px;

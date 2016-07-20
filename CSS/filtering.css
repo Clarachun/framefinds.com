@@ -9,6 +9,11 @@ body , html {
   background: white;
   color: white;
 }
+.loginbutton {
+  padding-top: 7px;
+  margin: auto;
+  text-align: auto;
+}
 li {
   color:black;
   text-align: right;
