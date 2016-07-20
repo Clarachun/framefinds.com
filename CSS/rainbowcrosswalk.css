@@ -181,7 +181,8 @@ img.frogs {
   color: black;
 }
 .time {
-  padding-top: 300px;
+  padding-top: 250px;
+  padding-bottom: 30px;
 }
 img.class {
   width: 40px;
