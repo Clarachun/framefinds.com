@@ -21,7 +21,7 @@ body, html {
 .container {
   width: 70%;
 }
-.bgimg-1, .bgimg-2, .bgimg-5 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -29,55 +29,80 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .w3-col.m8, .w3-twothird {
     width: 100%;
 }
+
 .w3-content {
   max-width: 100%;
   margin: 0px;
 }
+
 .bgimg-1 {
     background-image: url('http://www.lapdonline.org/assets/jpg/los-angeles-by-josh-harris-large.jpg');
     min-height: 100%;
 }
+
 .bgimg-2 {
   min-height:400px;
 }
-.bgimg-5 {
+
+.bgimg-3 {
     background-image: url('https://lonelyplanetimages.imgix.net/a/g/hi/t/f4003584e847990e3cae4b5d8062e342-los-angeles.jpg?sharp=10&vib=20&w=1200');
     min-height: 600px;
 }
+
+.bgimg-4 {
+  min-height:700px;
+}
+
+.bgimg-4 h1 {
+}
+
 #mybutton {
   margin: auto;
 }
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
+
 .hitit {
   background-image: url("http://i2.cdn.turner.com/cnnnext/dam/assets/160825160953-05-week-in-photos-0826-super-169.jpg");
   height: 400px;
 }
+
 .btn {
     background: black;
     border: 0px solid transparent;
     border-radius: 4px;
     color: white;
 }
+
 .btn:hover {
     background: white;
     border: 1px solid black;
     border-radius: 4px;
     color: black;
 }
+
 a title:hover {
   background:white;
   color: black;
   font-size: 12px;
 }
+
 .great {
   width: 50px;
   height: 50px;
@@ -85,38 +110,46 @@ a title:hover {
   right: 55px;
   z-index: 1;
 }
+
 .great hr {
   margin: 8px;
   padding: 0px;
   border-color: white;
 }
+
 .manuel {
   width: 100%;
   background-color: white;
   margin: auto;
 }
+
 #myCarousel {
   width: 60%;
   margin: auto;
 }
+
 .manuel h1 {
   font-size: 80px;
   padding-left: 60px;
   color: black;
 }
+
 .think {
   background-color: black;
 }
+
 .think hr {
   padding: 0px;
   margin: 0px;
   width: 60%;
   margin: auto;
 }
+
 .footer {
   height: 100px;
   background-color: white;
 }
+
 .footer img {
   height: 40px;
   width: 40px;
@@ -337,7 +370,7 @@ a title:hover {
   color: white;
 }
 .rectangle-1 {
-  background-color: pink;
+  background-color: black;
   height: 300px;
   width: 70%;
   margin: auto;
@@ -345,7 +378,12 @@ a title:hover {
   border: none;
 }
 .rectangle-1 h1 {
-  color: black;
+  color: white;
   padding-left: 20px;
   padding-top: 20px;
+}
+.rectangle-1 p {
+  color: white;
+  padding: 30px;
+  font-size: 15px;
 }
